@@ -3,6 +3,7 @@
 #finaly go to https://myaccount.google.com/lesssecureapps and turn on less secure apps
 #you are set to go ;)
 
+import time
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -37,6 +38,8 @@ for i in range(0, int(input("Enter number of emails to send: "))):
 	smtp_server.send_message(msg)
 
 	print("Email number " + str(i + 1) + " sent")
+
+	time.sleep(3)
 
 print("Email sent successfully")
 
