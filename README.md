@@ -5,5 +5,6 @@ Enter email and password upon first use
 also enter the file path of the message.txt file.
 Finaly go to https://myaccount.google.com/lesssecureapps and turn on less secure apps
 and you are set to go ;)
+(Make sure 2FA is off)
 
 Our license does not allow distribution
